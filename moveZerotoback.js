@@ -14,6 +14,6 @@ function moveZeroToEnd(array) {
 }
 let array = [0,8,4,50,5,0,4,0]
 
-const result = moveZeroToEnd(array)
+const result = moveZeroToEnd(array) 
 
 console.log(result);

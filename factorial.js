@@ -13,4 +13,12 @@ function facto(n) {
     return res
 }
 
-console.log(facto(5));
+// console.log(facto(5));
+
+function fact (n){
+if (n<0) return "not defined"
+if(n===0 || n===1) return "factorial is 1 "
+return n*fact(n-1);
+}
+
+console.log(fact(6));
