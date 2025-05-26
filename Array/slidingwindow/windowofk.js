@@ -5,8 +5,8 @@ let k = 3
 
 const findmaxvalueinarray = (arr , k) =>{
     let res = [];
-    let n = arr.length -1 ;
-    for (let i = 0; i < n; i++) {
+    let n = arr.length  ;
+    for (let i = 0; i <= n -k; i++) {
         let max = arr [i];
         for(let j =i ; j < i + k ; j++){
             if (arr[j] > max) {
